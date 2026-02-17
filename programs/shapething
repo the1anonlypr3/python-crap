@@ -1,0 +1,11 @@
+rect = input("enter symbol to make a quadrilateral :D:\n")
+rows = int(input("how many rows?:\n"))
+wide = int(input("how wide?:\n"))
+
+if len(rect) <= 1:
+    for x in range(rows):
+        for i in range(1, wide+1):
+            print(rect, end="")
+        print()
+else:
+    print("bullshit input don't start. one char only")
